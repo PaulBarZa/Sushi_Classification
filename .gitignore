@@ -1,6 +1,7 @@
 __pycache__
 .ipynb_checkpoints
 
+training_set
 validation_set
 models
 
