@@ -30,7 +30,7 @@ I use my previous model as features extraction and trained two models on this fe
 
 ## Generation
 
-For this part I created a GAN setup and tried different model for generator and discriminator (see part **Custom GAN** in file [GAN.ipynb](https://github.com/PaulBarZa/Sushi_Classification/Generation/GAN.ipynb)).
+For this part I created a GAN setup and tried different model for generator and discriminator (see part **Custom GAN** in file [GAN.ipynb](https://github.com/PaulBarZa/Sushi_Classification-Generation/blob/master/Generation/GAN.ipynb)).
 Results were not very good.
 
 To have better results I used the [StyleGAN](https://arxiv.org/abs/1812.04948) network and trained it on my dataset.
