@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
 
-def load_data(shape=(160, 160), dir='./dataset/'):
+def load_data(shape=(160, 160), dir='./dataset/', color_mode='rgb'):
     ds = image_dataset_from_directory(
         dir,
         labels='inferred',
@@ -12,7 +12,7 @@ def load_data(shape=(160, 160), dir='./dataset/'):
         batch_size=32,
         shuffle=False,
         image_size=shape,
-        color_mode='rgb',
+        color_mode=color_mode,
         interpolation='bilinear'
     )
     # X = 1927 images de tailles 100x100x3
